@@ -1,0 +1,19 @@
+{
+  "name": "com.juanborgesv.screenshake",
+  "version": "1.0.1",
+  "displayName": "Screen Shake",
+  "description": "A lightweight Screen Shake system for Unity using Cinemachine Impulse Sources. It provides an easy-to-use manager for triggering different shake intensities. ",
+  "unity": "6000.0",
+  "unityRelease": "58f2",
+  "keywords": [
+    "camera",
+    "screen",
+    "shake"
+  ],
+  "author": {
+    "name": "Juan Borges",
+    "email": "juan.vegaborges@gmail.com",
+    "url": "https://www.juanborgesv.com"
+  },
+  "type": "tool"
+}

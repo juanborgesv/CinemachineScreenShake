@@ -1,0 +1,16 @@
+{
+    "name": "juanborgesv.screenshake.test",
+    "rootNamespace": "",
+    "references": [
+        "GUID:90ccff7f779a43a4f9039ce768f3be10"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
