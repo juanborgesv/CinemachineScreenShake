@@ -8,8 +8,6 @@ namespace JuanBorges.ScreenShake
 {
     public class ScreenShakeTrigger : MonoBehaviour
     {
-        public static ScreenShakeTrigger Instance { get; private set; }
-
         [Serializable]
         public struct ShakeProfile
         {
@@ -22,18 +20,7 @@ namespace JuanBorges.ScreenShake
 
         private Dictionary<ShakeIntensity, CinemachineImpulseSource> _sourceMap;
 
-        private void Awake()
-        {
-            // Singleton for easy global access.
-            if (Instance != null && Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-            Instance = this;
-
-            InitializeDictionary();
-        }
+        private void Awake() => InitializeDictionary();
 
         /// <summary>
         /// Converts the list of shake profiles into a dictionary for optimized runtime lookups.

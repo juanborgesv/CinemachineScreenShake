@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 814040375284551017}
   - component: {fileID: 5678615102852817141}
   m_Layer: 5
-  m_Name: Screen Shake Tester
+  m_Name: Screen Shake Tester (Singleton)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

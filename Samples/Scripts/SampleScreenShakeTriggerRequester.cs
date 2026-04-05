@@ -9,13 +9,13 @@ namespace JuanBorges.ScreenShake
 
         public void RequestScreenShake()
         {
-            if (ScreenShakeTrigger.Instance == null)
+            if (ScreenShakeTriggerSingletonProvider.Instance == null)
             {
                 Debug.LogError("Screen Shake Trigger instance is missing. Please add it to your scene.");
                 return;
             }
 
-            ScreenShakeTrigger.Instance.Shake(ShakeIntensity);
+            ScreenShakeTriggerSingletonProvider.Instance.Shake(ShakeIntensity);
         }
     }
 }
